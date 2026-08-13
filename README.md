@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repository](YOUR_GITHUB_REPO_URL)
-- Live Site URL: [View the live site](YOUR_LIVE_SITE_URL)
+- Solution URL: [GitHub repository](https://github.com/Imerzion/Blog-Preview-Card)
+- Live Site URL: [View the live site](https://imerzion.github.io/Blog-Preview-Card/)
 
 ## My process
 

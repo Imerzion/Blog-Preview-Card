@@ -38,15 +38,7 @@ Users should be able to:
 
 This project helped me practise building a responsive card layout from a design reference.
 
-One thing I particularly learned was how to control an image's dimensions while maintaining its appearance using `object-fit: cover`.
-
-```css
-.card-hero img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
-```
+One thing I had to remind myself of was how to control an image's dimensions while maintaining its appearance.
 
 I also got more comfortable using CSS Flexbox for layout and spacing, as well as using media queries to adjust the design for smaller screens.
 

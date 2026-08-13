@@ -20,8 +20,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub repository](YOUR_GITHUB_REPO_URL)
-- Live Site URL: [View the live site](YOUR_LIVE_SITE_URL)
+- Solution URL: [GitHub repository](https://github.com/Imerzion/Blog-Preview-Card)
+- Live Site URL: [View the live site](https://imerzion.github.io/Blog-Preview-Card/)
 
 ## My process
 
@@ -38,7 +38,9 @@ Users should be able to:
 
 This project helped me practise building a responsive card layout from a design reference.
 
-I became more comfortable using CSS Flexbox for layout and spacing, as well as using media queries to adjust the design for smaller screens.
+One thing I had to remind myself of was how to control an image's dimensions while maintaining its appearance.
+
+I also got more comfortable using CSS Flexbox for layout and spacing, as well as using media queries to adjust the design for smaller screens.
 
 ### Continued development
 

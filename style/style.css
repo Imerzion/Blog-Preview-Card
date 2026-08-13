@@ -1,0 +1,162 @@
+/* ==========================================
+   FONT IMPORTS
+   ========================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap");
+
+/* ==========================================
+   ROOT
+   ========================================== */
+
+:root {
+  --yellow: hsl(47, 88%, 63%);
+  --white: hsl(0, 0%, 100%);
+  --gray-500: hsl(0, 0%, 42%);
+  --gray-950: hsl(0, 0%, 7%);
+}
+
+/* ==========================================
+  MODERN MINI-RESET 
+   ========================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* ==========================================
+  CODE STYLING
+   ========================================== */
+
+body {
+  background-color: var(--yellow);
+  font-family: "Figtree", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.blog-card {
+  width: 100%;
+  max-width: 384px;
+  background-color: var(--white);
+  border: 1px solid var(--gray-950);
+  padding: 1.5rem;
+  border-radius: 1.25rem;
+  box-shadow: 8px 8px 0px 0px var(--gray-950);
+}
+
+.card-hero {
+  margin-bottom: 1.5rem;
+}
+
+.card-hero img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 0.75rem;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.card-badge {
+  font-size: 0.875rem;
+  font-weight: 900;
+  letter-spacing: 0;
+  padding: 0.25rem 0.75rem;
+  background-color: var(--yellow);
+  border-radius: 0.25rem;
+}
+
+.card-date {
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.card-description {
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.card-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.card-footer img {
+  max-width: 32px;
+  max-height: 32px;
+  border-radius: 50%;
+}
+
+.card-author {
+  font-size: 0.875rem;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+/* ==========================================
+  ATTRIBUTION STYLING
+   ========================================== */
+
+.attribution {
+  margin-top: 2rem;
+  font-size: 0.6875rem;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* ==========================================
+  RESPONSIVE STYLING
+   ========================================== */
+
+@media (max-width: 400px) {
+  .blog-card {
+    max-width: 327px;
+  }
+
+  .card-badge,
+  .card-date {
+    font-size: 0.75rem;
+  }
+
+  .card-title {
+    font-size: 1.25rem;
+  }
+
+  .card-description {
+    font-size: 0.875rem;
+  }
+}

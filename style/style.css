@@ -79,6 +79,7 @@ body {
 }
 
 .card-badge {
+  color: var(--gray-950);
   font-size: 0.875rem;
   font-weight: 900;
   letter-spacing: 0;
@@ -94,12 +95,19 @@ body {
 }
 
 .card-title {
+  color: var(--gray-950);
   font-size: 1.5rem;
   font-weight: 900;
   letter-spacing: 0;
 }
 
+.card-title:hover {
+  color: var(--yellow);
+  cursor: pointer;
+}
+
 .card-description {
+  color: var(--gray-500);
   font-size: 1rem;
   font-weight: 500;
   line-height: 150%;
@@ -120,6 +128,7 @@ body {
 }
 
 .card-author {
+  color: var(--gray-950);
   font-size: 0.875rem;
   font-weight: 900;
   letter-spacing: 0;
